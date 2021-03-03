@@ -11,8 +11,8 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Zak Stone',
-  subtitle: 'Full Stack Developer',
-  cta: '',
+  subtitle: 'I build things for the web.',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
@@ -67,28 +67,28 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/zak-stone',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/zrlstone',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/zakrlstone/',
+    },
+    {
+      id: nanoid(),
+      name: 'soundcloud',
+      url: 'https://soundcloud.com/zakstone',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
