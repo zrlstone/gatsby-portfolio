@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile-picture.png',
-  paragraphOne: "I’m a London-based web developer. I came into coding after working as an informatics pharmacist, which sparked my passion for using tech to make a difference. It also gave me solid experience of querying databases and implementing tech within healthcare.",
+  paragraphOne: "I’m a London-based web developer. I came into coding after working as an informatics pharmacist, which sparked my passion for using tech to make a difference. It also gave me solid experience querying databases and implementing tech within healthcare.",
   paragraphTwo: "Enrolling on a coding bootcamp at Le Wagon expanded my skill set from databases to user interface, giving me experience building web applications from scratch written in maintainable and easy to understand code.",
   paragraphThree: "My toolbox includes Ruby on Rails, JavaScript, PostgreSQL and HTML/CSS. When I’m not coding or learning a tech new skill, you’ll find me producing music.",
   resume: '', // if no resume, the button will not show up
