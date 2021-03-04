@@ -23,23 +23,23 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  background-color: $btn-color;
+  background-color: $dark-blue-text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-color: $btn-color;
+  border-color: $dark-blue-text;
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $btn-color;
-    -webkit-text-fill-color: $btn-color;
+    border: 2px solid $dark-blue-text;
+    -webkit-text-fill-color: $dark-blue-text;
   }
 
   &::after {
-    background-color: $btn-color;
+    background-color: $dark-blue-text;
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -51,7 +51,7 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $btn-color;;
+      -webkit-text-fill-color: $dark-blue-text;
     }
 
     &::after {
@@ -71,6 +71,26 @@
 
   &:hover {
     color: $about-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+/* Contact Style */
+
+.cta-btn--contact {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+
+  &:hover {
+    color: $contact-color;
     text-decoration: none;
 
     &::after {

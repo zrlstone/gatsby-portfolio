@@ -18,40 +18,40 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile-picture.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: "I’m a London-based web developer. I came into coding after working as an informatics pharmacist, which sparked my passion for using tech to make a difference. It also gave me solid experience of querying databases and implementing tech within healthcare.",
+  paragraphTwo: "Enrolling on a coding bootcamp at Le Wagon expanded my skill set from databases to user interface, giving me experience building web applications from scratch written in maintainable and easy to understand code.",
+  paragraphThree: "My toolbox includes Ruby on Rails, JavaScript, PostgreSQL and HTML/CSS. When I’m not coding or learning a tech new skill, you’ll find me producing music.",
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'open-rehearsal.png',
+    title: 'Open Rehearsal',
+    info: 'Open Rehearsal helps musicians organise or join music rehearsals. It makes the experience easy and intuitive, without the commitment of formal rehearsals.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://www.openrehearsal.co.uk/',
+    repo: 'https://github.com/zrlstone/open-rehearsal', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'garden-escape.png',
+    title: 'Garden Escape',
+    info: 'A marketplace app that allows users to book gardens for any event or host their own garden.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://garden-escape.herokuapp.com/',
+    repo: 'https://github.com/AsiaCiesla/garden-escape', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'remixology.png',
+    title: 'Remixology',
+    info: 'A cocktail recipe app with a twist. Users can manipulate the ingredients and amounts of famous cocktail recipes.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://remixologyapp.herokuapp.com/',
+    repo: 'https://github.com/zrlstone/rails-mister-cocktail', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'zrlstone@gmail.com',
 };
 
 // FOOTER DATA
